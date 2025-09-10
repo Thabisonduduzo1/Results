@@ -24,7 +24,7 @@ ul{ display: flex; justify-content: space-between; flex-direction: column; gap:1
 
 .summary{ padding-left: 50px; width: 300px;}
 
-.summary header{display: flex; justify-content: flex-start;}
+.summary header{display: flex; justify-content: flex-startss;}
 
 .r{background-color: hsl(0, 85%, 92%) ;color: hsl(0, 100%, 67%); list-style-image:url(/assets/images/icon-reaction.svg); height: 50px; display: flex; justify-content: space-between; border-radius: 5px; align-items: center;}
 
@@ -44,9 +44,8 @@ ul{ display: flex; justify-content: space-between; flex-direction: column; gap:1
 
 button{ background-color: hsl(224, 41%, 31%); color: white; border-radius:30px; width: 300px;height: 30px; }
 
+
 /*Media design*/
-
-
 @media only screen and (max-width : 375px) { .container{flex-direction: column}
     
 }
